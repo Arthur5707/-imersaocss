@@ -1,0 +1,42 @@
+body {
+    background-image: url('/img/fundo.jpg');
+    background-size: 50px 500px;
+    font-family: Calibri;
+  }
+  
+  .menu {
+    background-color: white;
+  }
+  
+  header {
+    height: 100vh;
+    display: flex;
+  }
+
+  .menu ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu li {
+    list-style: none;
+  }
+  
+  .site-title {
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  .site-subtitle {
+    text-align: center;
+    color: whitesmoke;
+    font-style: italic;
+  }
